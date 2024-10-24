@@ -1,0 +1,29 @@
+{
+    "AutoJump": {
+        "checkpoints": [
+            {
+                "steps": 139296,
+                "file_path": "results\\Test5.19\\AutoJump\\AutoJump-139296.onnx",
+                "reward": null,
+                "creation_time": 1691510987.5397577,
+                "auxillary_file_paths": [
+                    "results\\Test5.19\\AutoJump\\AutoJump-139296.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 139296,
+            "file_path": "results\\Test5.19\\AutoJump.onnx",
+            "reward": null,
+            "creation_time": 1691510987.5397577,
+            "auxillary_file_paths": [
+                "results\\Test5.19\\AutoJump\\AutoJump-139296.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "AutoJump": {
+        "checkpoints": [
+            {
+                "steps": 499999,
+                "file_path": "results\\Test7.26medium1\\AutoJump\\AutoJump-499999.onnx",
+                "reward": null,
+                "creation_time": 1691694225.7510958,
+                "auxillary_file_paths": [
+                    "results\\Test7.26medium1\\AutoJump\\AutoJump-499999.pt"
+                ]
+            },
+            {
+                "steps": 999997,
+                "file_path": "results\\Test7.26medium1\\AutoJump\\AutoJump-999997.onnx",
+                "reward": null,
+                "creation_time": 1691695513.78794,
+                "auxillary_file_paths": [
+                    "results\\Test7.26medium1\\AutoJump\\AutoJump-999997.pt"
+                ]
+            },
+            {
+                "steps": 1000009,
+                "file_path": "results\\Test7.26medium1\\AutoJump\\AutoJump-1000009.onnx",
+                "reward": null,
+                "creation_time": 1691695513.8921764,
+                "auxillary_file_paths": [
+                    "results\\Test7.26medium1\\AutoJump\\AutoJump-1000009.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000009,
+            "file_path": "results\\Test7.26medium1\\AutoJump.onnx",
+            "reward": null,
+            "creation_time": 1691695513.8921764,
+            "auxillary_file_paths": [
+                "results\\Test7.26medium1\\AutoJump\\AutoJump-1000009.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1691133036",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Rares-Anton\\Desktop\\HartaAia\\venv\\Scripts\\mlagents-learn --run-id=Test2",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1691133053"
+    },
+    "total": 17.0115961,
+    "count": 1,
+    "self": 0.009229400000002386,
+    "children": {
+        "run_training.setup": {
+            "total": 0.037652700000000205,
+            "count": 1,
+            "self": 0.037652700000000205
+        },
+        "TrainerController.start_learning": {
+            "total": 16.964713999999997,
+            "count": 1,
+            "self": 0.0004061999999969146,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 16.964297199999997,
+                    "count": 1,
+                    "self": 16.964297199999997
+                },
+                "trainer_threads": {
+                    "total": 8.999999998593466e-07,
+                    "count": 1,
+                    "self": 8.999999998593466e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 9.700000003221021e-06,
+                    "count": 1,
+                    "self": 9.700000003221021e-06
+                }
+            }
+        }
+    }
+}
